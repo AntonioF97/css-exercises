@@ -1,3 +1,7 @@
+/* THE EXCERCISE ASKS TO CHANGE THE SINGLE CLASSES BUT I
+DECIDED TO ADD A NEW RULE AT THE END OF THE CASCADE
+FOR EVERY SELF-CHECK IN THE README PAGE USING GROUP SELECTORS
+WHEN POSSIBLE*/
 body {
   max-width: 600px;
   margin: 0 auto;
@@ -8,14 +12,14 @@ body {
   border: 3px solid blue;
   /* CHANGE ME */
   padding: 0px;
-  margin: 0px;
+  margin: 12px; /*CHANGED FROM 0px*/
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
 }
 
 .three {
@@ -24,5 +28,19 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 0px;
-  margin-left: 0px;
+  margin-left: auto; /*CHANGED FROM 0px*/
 }
+
+/*Div One and Div Three have 32px between their text and border.*/
+.one,.three{
+  padding: 32px;
+}
+
+/*Div One has 12px between it and any other element on the page.*/
+/*CHANGED .one*/
+
+/*There is a 48px gap between Div Two and Div Three.*/
+/*CHANGED .two*/
+
+/*Div Three is aligned to the right using margin property.*/
+/*CHANGED .three*/
